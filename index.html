@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>화산이씨종친회</title>
+  <link rel="stylesheet" href="href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&amp;display=swap" rel="stylesheet">
+  <meta name="descripion" content="화산이씨종친회 홈페이지 입니다.">
+
+  <style>
+    .back {
+      width: 100%;
+      height: 180vh;
+      background-size: cover;
+      position: relative;
+      z-index: 1;
+    }
+    .back::before {
+      width: 100%;
+      height: 180vh;
+      content: "";
+      background-image: url(./images/lythaito.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0.7;
+    }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo {
+      width: 150px;
+      margin-top: 14px;
+    }
+    .main-nav {
+      display: flex;
+      font-family: "noto sans kr", sans-serif;
+      font-size: 1.5rem;
+      margin-top: 40px;
+      list-style: none;
+    }
+    .main-nav li {
+      margin-left: 66px;
+    }
+    .main-nav :hover #down-list li {
+      opacity: 1;
+      visibility: visible;
+    }
+    .main-nav a {
+      color: #432;
+    }
+    .wrapper {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    a {text-decoration: none;}
+    .page-title {
+      margin: 120px;
+    }
+    .title-home {
+      font-size: 2.3rem;
+    }
+    .title-info {
+      font-size: 1.55rem;
+    }
+    footer {
+      background: rgba(1, 1, 77);
+      text-align: left;
+      padding: 26px 0;
+      display: flex;
+    }
+    footer p {
+      color: #fff;
+      font-size: 1rem;
+      margin: 25px;
+    }
+    #down-list {
+      font-size: 20px;
+      color: #432;
+      padding: 0;
+      list-style-type: none;
+    }
+    #down-list li {
+      display: block;
+      margin: 3px;
+      padding: 8px 1px;
+      opacity: 0;
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="home" class="main">
+    <div class="back">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="home.html">
+            <img class="logo" src="./images/logo.png" alt="화산이씨종친회 홈">
+          </a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="sogae.html">화산이씨 소개</a>
+              <ul id="down-list">
+                <li><a href="sogae.html">화산이씨 유래와 현황</a></li>
+                <li><a href="historylee.html">리왕조의 역사</a></li>
+              </ul>
+            </li>
+            <li><a href="jongchin.html">종친회</a></li>
+            <li><a href="자료실">자료실<a></li>
+              <li><a href="참여공간">참여공간</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="page-title">
+        <h1 class="title-home">리왕조의 리타이토<br>
+          Lý Thái Tổ - 李太祖(974 - 1028)</h1>
+        <p class="title-info">베트남 리왕조는 1010년에 하노이에 수도를 정한<br>
+          베트남 최초의 통일된 강력한 군주국가로서<br>
+          경제,교육,문화,종교등 모든 분야에서<br>
+          괄목할만한 성장을 이룩하였으나 1226년<br>
+          친척인 쩐씨에 의해
+          왕위를 친탈당하고 멸망되었다<br>
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+      <p>주소: 인천광역시 남동구 논현고잔로54번길 8 2층</p>
+      <p>전화번호:</p>
+    </div>
+  </footer>
+</body>
+</html>
