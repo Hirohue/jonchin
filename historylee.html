@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>화산이씨 소개</title>
+  <link rel="stylesheet" href="href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&amp;display=swap" rel="stylesheet">
+  <meta name="descripion" content="화산이씨종친회 홈페이지 입니다.">
+
+  <style>
+    .back {
+      width: 100%;
+      height: 180vh;
+      background-size: cover;
+      position: relative;
+      z-index: 1;
+    }
+    .back::before {
+      width: 100%;
+      height: 180vh;
+      content: "";
+      background-image: url(./images/lythaito.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0.7;
+    }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo {
+      width: 150px;
+      margin-top: 14px;
+    }
+    .main-nav {
+      display: flex;
+      font-family: "noto sans kr", sans-serif;
+      font-size: 1.5rem;
+      margin-top: 40px;
+      list-style: none;
+    }
+    .main-nav li {
+      margin-left: 66px;
+    }
+    .main-nav :hover #down-list li {
+      opacity: 1;
+      visibility: visible;
+    }
+    .main-nav a {
+      color: #432;
+    }
+    .wrapper {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    a {text-decoration: none;}
+    .page-title {
+      margin: 120px;
+    }
+    .title-home {
+      font-size: 2.3rem;
+    }
+    .title-info {
+      font-size: 1.55rem;
+    }
+    footer {
+      background: rgba(1, 1, 77);
+      text-align: left;
+      padding: 26px 0;
+      display: flex;
+    }
+    footer p {
+      color: #fff;
+      font-size: 1rem;
+      margin: 25px;
+    }
+    .sogae-title {
+      text-align: center;
+      font-size: 3rem;
+    }
+    .sogae-content {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+    article {
+      width: 22%;
+    }
+    aside {
+      width: 68%;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .history {
+      font-size: 2.3rem;
+      font-family: "noto sans kr", sans-serif;
+      margin: 0;
+    }
+    .u {
+      font-size: 1.25rem;
+      font-family: "noto sans kr", sans-serif;
+    }
+    .sub-title {
+      font-size: 1.8rem;
+      font-family: sans-serif;
+      margin: 0;
+    }
+    .sub-menu {
+      font-size: 20px;
+      list-style: none;
+      padding: 0;
+    }
+    .sub-menu a{
+       color: #432;
+       line-height: 2cm;
+    }
+    .sub-menu a:hover {
+      color: blue;
+    }
+    #down-list {
+      font-size: 20px;
+      color: #432;
+      padding: 0;
+      list-style-type: none;
+    }
+    #down-list li {
+      display: block;
+      margin: 3px;
+      padding: 8px 1px;
+      opacity: 0;
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="sogae" class="main">
+    <div class="back">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="home.html">
+            <img class="logo" src="./images/logo.png" alt="화산이씨종친회 홈">
+          </a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="sogae.html">화산이씨 소개</a>
+              <ul id="down-list">
+                <li><a href="sogae.html">화산이씨 유래와 현황</a></li>
+                <li><a href="historylee.html">리왕조의 역사</a></li>
+              </ul>
+            </li>
+            <li><a href="종친회">종친회</a></li>
+            <li><a href="자료실">자료실<a></li>
+            <li><a href="참여공간">참여공간</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="wrapper"></div>
+        <h2 class="sogae-title">화산이씨 소개</h2>
+      </div>
+      <div class="sogae-content wrapper">
+       <article>
+        <h3 class="sub-title">화산이씨 소개</h3>
+        <ul class="sub-menu">
+          <li><a href="sogae.html">화산이씨 유래와 현황</a></li>
+          <li><a href="historylee.html">리왕조의 역사</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+       </article>
+        <aside>
+         <h1 class="history-ly">베트남 리(李)왕조의 역사</h1>
+        <p class="u">
+          1009년 북부 베트남을 지배하고 있던 전 레 왕조(前黎朝)의 장군 이공온(베트남어: Lý Công 
+          Uẩn/ 李公蘊)은 군권을 장악 해 레 왕조를 무너뜨리고 리 왕조(李朝)를 수립하였다. 
+          이공온은 1010년 수도를 호아르(베트남어: Hoa Lư/ 華閭)로부터 탕롱(昇龍)[1] 로 옮겼다. 3대 황제인 리 성종은 1054년 국호를 대월(베트남어: Đại Việt/ 大越)이라고 했다.
+          리 왕조는 제4대 황제 인종(仁宗)의 시대에 전성기를 맞이했다. 당시까지의 베트남의 왕조는 북송을 중심으로 하는 중국의 책봉 체제를 인정하였는데, 리 왕조는 베트남 
+          왕조로서는 처음으로 이를 어기고 스스로 국왕을 결정하여 자주성을 보였다.
+          그리하여 북송과 리 왕조간에는 자주 외교적·군사적 문제가 발생하였다. 송은 신종의 즉위 후, 재상 왕안석의 주도로 적극책으로 변해 베트남 경략을 도모했다. 이것에 대해서 리 왕조는, 
+          1075년에 기선을 억제해 리 트엉끼엣(베트남어: Lý Thương Kiệt/ 李常傑 이상걸)을 총대장으로서 수륙으로부터 송에 침공해, 흠주(欽州), 염주(廉州), 옹주(邕州)등을 
+          공략하였다. 송나라측은 반격했지만, 전과를 들지 못하고 귀환하였다.
+          베트남은 유리한 조건으로 송과 화친하였고, 국경을 확정하는 것과 동시에, 국가로서의 위세를 나타냈다. 1174년에는 남송으로부터 안남 국왕(安南國王)으로 책봉되어 책봉 체제 
+          안에서 독립성을 가지는 나라로서 인정되었다.
+          1175년, 영종(英宗)이 승하하고, 고종(高宗)이 제7대 황제로서 즉위 했다. 그러나 국내 각지에서 농민에 의한 반란이 다발해 왕조는 급속히 쇠퇴하였다.
+          1210년, 고종이 죽자 혜종(恵宗)이 즉위 했다. 그러나 혜종 시대에도 국내의 혼란은 한층 더 심화 되었다. 이 시기에 혜종의 외척에 해당되는 쩐투도(베트남어: Trần Thủ Độ/ 陳守度
+          진수도)의 권세가 커지게 되었다. 쩐투도는 1224년 혜종을 폐위하여 그 딸인 소황(昭皇)을 왕으로 옹립 했다. 쩐투도는 다음 해, 혜종을 자살에 몰아넣은 다음, 소황과 조카인 태종을 
+          결혼시켜 태종에게 황위를 양위하는 방식으로, 쩐 왕조를 열었다.
+        </p>
+       </aside>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
