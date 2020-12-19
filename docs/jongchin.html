@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>화산이씨 소개</title>
+  <link rel="stylesheet" href="href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&amp;display=swap" rel="stylesheet">
+  <meta name="descripion" content="화산이씨종친회 홈페이지 입니다.">
+
+  <style>
+    .back {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-size: cover;
+      position: relative;
+      z-index: 1;
+    }
+    .back::before {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      content: "";
+      background-image: url();
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0.7;
+    }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo {
+      width: 150px;
+      margin-top: 14px;
+    }
+    .main-nav {
+      display: flex;
+      font-family: "noto sans kr", sans-serif;
+      font-size: 1.5rem;
+      margin-top: 40px;
+      list-style: none;
+    }
+    .main-nav li {
+      margin-left: 66px;
+    }
+    .main-nav :hover #down-list li {
+      opacity: 1;
+      visibility: visible;
+    }
+    .main-nav a {
+      color: #432;
+    }
+    .wrapper {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    a {text-decoration: none;}
+    .page-title {
+      margin: 120px;
+    }
+    .title-home {
+      font-size: 2.3rem;
+    }
+    .title-info {
+      font-size: 1.55rem;
+    }
+    footer {
+      background: rgba(1, 1, 77);
+      text-align: left;
+      padding: 26px 0;
+      display: flex;
+    }
+    footer p {
+      color: #fff;
+      font-size: 1rem;
+      margin: 25px;
+    }
+    .sogae-title {
+      text-align: center;
+      font-size: 3rem;
+    }
+    .sogae-content {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+    article {
+      width: 22%;
+    }
+    aside {
+      width: 68%;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .history {
+      font-size: 2.3rem;
+      font-family: "noto sans kr", sans-serif;
+      margin: 0;
+    }
+    .u {
+      font-size: 1.25rem;
+      font-family: "noto sans kr", sans-serif;
+    }
+    .sub-title {
+      font-size: 1.8rem;
+      font-family: sans-serif;
+      margin: 0;
+    }
+    .sub-menu {
+      font-size: 20px;
+      list-style: none;
+      padding: 0;
+    }
+    .sub-menu a{
+       color: #432;
+       line-height: 2cm;
+    }
+    .sub-menu a:hover {
+      color: blue;
+    }
+    #down-list {
+      font-size: 20px;
+      color: #432;
+      padding: 0;
+      list-style-type: none;
+    }
+    #down-list li {
+      display: block;
+      margin: 3px;
+      padding: 8px 1px;
+      opacity: 0;
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="jongchin" class="main">
+    <div class="back">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="index.html">
+            <img class="logo" src="./images/logo.png" alt="화산이씨종친회 홈">
+          </a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="sogae.html">화산이씨 소개</a>
+              <ul id="down-list">
+                <li><a href="sogae.html">화산이씨 유래와 현황</a></li>
+                <li><a href="historylee.html">리왕조의 역사</a></li>
+              </ul>
+            </li>
+            <li><a href="jongchin.html">종친회</a>
+              <ul id="down-list">
+                <li><a href="jongchin.html">회장 인사말</a></li>
+                <li><a href="people.html">종친회 연혁</a></li>
+                <li><a href="news.html">종친회 소식</a></li>
+                <li><a href="file.html">총회 자료</a></li>
+              </ul>
+            </li>
+            <li><a href="자료실">자료실<a></li>
+            <li><a href="참여공간">참여공간</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="wrapper">
+        <h2 class="sogae-title">화산이씨 소개</h2>
+      </div>
+      <div class="sogae-content wrapper">
+       <article>
+        <h3 class="sub-title">종친회</h3>
+        <ul class="sub-menu">
+          <li><a href="jongchin.html">회장 인사말</a></li>
+          <li><a href="people.html">종친회 연혁</a></li>
+          <li><a href="news.html">종친회 소식</a></li>
+          <li><a href="file.html">총회 자료</a></li>
+        </ul>
+       </article>
+        <aside>
+         <h1 class="hi">회장 인사말</h1>
+        <p class="u">
+          존경하는 종친 제위께.<br><br>
+          어느덧 여름으로 들어선것 같습니다.<br>
+          지난 3월 2일 정기총회에서 제5대 종친회장으로 선임된 이 훈 입니다.<br>
+          진작에 글을 올려야 했는데 죄송함을 전합니다.<br>
+          4월에 박린 이태조 행사에 많은 종친분들과 봉화군수님을 비롯하여 많은분들이 참석을 하여 주었습니다.<br>
+          종친회장으로 선임 하여 주셔서 감사를 드리고 앞으로 종친회에 열심히 활동을 하여 발전을 할수 있게 하겠습니다.<br>
+          종친 여러분께서 옆에서 많은 조언과 도움을 주시면 더욱 발전 할수 있는 종친회가 될수 있으리라 믿고 잇습니다.<br>
+          잘못됨이 있으면 꾸지람을 주시고, 많은 칭찬을 주시면 종친회 임원들은 힘을 얻어 더욱더 열심히 일을 할수 있으리라
+          생각이 듭니다.<br>
+          역대 회장님과 원로분들이 해오신 업적들을 누가 되지않게 열심히 앞만보고 화산이씨 종친회가  발전할수 있도록
+          혼신을 다하여 매진 하겠습니다.<br>
+          감사합니다.<br><br>
+
+                                                  2019.05.29<br><br> 5대 종친회장 이 훈 배상
+        </p>
+       </aside>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
